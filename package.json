@@ -1,0 +1,42 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "description": "Laboratory work in physics, mechanics",
+    "main": "main.js",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^27.0.2",
+        "electron-builder": "^24.6.4"
+    },
+
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-builder -lwm"
+    },
+
+
+    "build": {
+        "appId": "com.labApp.app",
+        "productName": "labApp",
+        "copyright": "© 2024",
+
+        "mac": {
+            "icon": "assets/img/mac-icon.icns",
+            "target": "7z",
+            "category": "public.app-category.education"
+        },
+        "linux": {
+            "icon": "assets/img/linux-icon.png",
+            "category": "Education, Science",
+            "target": "AppImage"
+        },
+        "win": {
+            "icon": "assets/img/windows-icon.png",
+            "target": "portable"
+        }
+    },
+
+    "homepage": "./"
+
+
+}
