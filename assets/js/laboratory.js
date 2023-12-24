@@ -62,7 +62,7 @@ $(document).ready(function() {
 
     function playLottie() {
         let id = $('.laboratory__page[data-p=' + pageNumber + ']').find('.preview').attr('id');
-        console.log(id);
+        // console.log(id);
         lottie.stop();
         setTimeout(() => {
             lottie.play(id);
