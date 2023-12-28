@@ -42,30 +42,6 @@ $(document).ready(function() {
             autoplay: false, // Optional
             name: "lab5",
         })
-        let lab6 = bodymovin.loadAnimation({
-            container: document.getElementById('lab6'), // Required
-            path: path + 'lab6.json', // Required
-            renderer: 'svg', // Required
-            loop: false, // Optional
-            autoplay: false, // Optional
-            name: "lab6",
-        })
-        let lab7 = bodymovin.loadAnimation({
-            container: document.getElementById('lab7'), // Required
-            path: path + 'lab7.json', // Required
-            renderer: 'svg', // Required
-            loop: false, // Optional
-            autoplay: false, // Optional
-            name: "lab7",
-        })
-        let lab8 = bodymovin.loadAnimation({
-            container: document.getElementById('lab8'), // Required
-            path: path + 'lab8.json', // Required
-            renderer: 'svg', // Required
-            loop: false, // Optional
-            autoplay: false, // Optional
-            name: "lab8",
-        })
     }
     initLabImage();
 })
