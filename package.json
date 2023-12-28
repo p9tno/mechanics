@@ -17,7 +17,7 @@
 
     "build": {
         "appId": "com.labApp.app",
-        "productName": "labApp",
+        "productName": "labAppMechanics",
         "copyright": "© 2024",
 
         "mac": {
